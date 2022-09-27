@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="render\imgui.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_demo.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_draw.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_impl_dx9.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_impl_win32.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_widgets.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\intel_driver.cpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\kdmapper.cpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\portable_executable.cpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\service.cpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Kdmapper\utils.cpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{2b53feae-fdd5-4bdd-81ee-56c31543d513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{8d7be149-07cf-43f8-9cdc-6bfd1738a84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\otherlolz">
+      <UniqueIdentifier>{a4913848-8803-4775-9352-80af2cc1468c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\otherlolz\kdmaperrrrrrr">
+      <UniqueIdentifier>{98a15d55-7278-4094-af42-c9e7a11253b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\otherlolz\wtfisthisbs">
+      <UniqueIdentifier>{420e3fa9-77d5-43b6-af2c-a0fd8471cea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\otherlolz\testglowesp">
+      <UniqueIdentifier>{9f06296e-bba6-4cda-93cc-11be25495053}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imconfig.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_impl_dx9.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_impl_win32.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_internal.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_rectpack.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_textedit.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_truetype.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="ss.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="proct.hpp">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="render\auth.hpp">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\intel_driver.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\intel_driver_resource.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\kdmapper.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\nt.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\portable_executable.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\service.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Kdmapper\utils.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.hpp">
+      <Filter>client\otherlolz\kdmaperrrrrrr</Filter>
+    </ClInclude>
+    <ClInclude Include="glowthroughwallz.hpp">
+      <Filter>client\otherlolz\testglowesp</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="render\libcurl.lib">
+      <Filter>render</Filter>
+    </Library>
+    <Library Include="render\library_x64.lib">
+      <Filter>render</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
